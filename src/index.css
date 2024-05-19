@@ -1,13 +1,299 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+html, body
+{
+    font-family: 'Crafty Girls' !important;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box !important;
+    margin: 0;
+    top: 0;
+    left: 0;
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:hover
+{
+    color: #A6995B !important;
+    
+}
+
+/* header
+{
+    width: 100% !important;
+    position: fixed;
+    transition: 0.6s !important;
+    z-index: 100000;
+} */
+
+ul li
+{
+    list-style: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+    border-top: 4px solid #A6995B;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link.active
+{
+    border-top: 4px solid #a6995b;
+} 
+
+/* Mise en page de l'intro & du bouton */
+
+.introduction
+{
+  background: linear-gradient(340deg, rgba(166, 153, 91, 0.486) 0%, rgba(0, 0, 0, 0.739) 100%), url('/public/bg-img.jpg');
+    background-size: cover;
+    background-position-y: center;
+    min-height: 85vh;
+}
+.introduction .row
+{
+    padding-top: 6.5rem !important;
+}
+.fa-facebook, .larger
+{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.534);
+}
+.fa-facebook:hover
+{
+    color: #A6995B;
+}
+.larger:hover
+{
+    color: #A6995B;
+}
+.btn
+{
+    position: relative;
+    width: 155px;
+    height: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+.btn a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255 ,255, 0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+.btn:hover a
+{
+    letter-spacing: 3px;
+    color: white !important;
+}
+.btn a::before
+{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.15), transparent);
+    transform: skewX(45deg) translateX(0);
+    transition: 0.5s;
+}
+.btn:hover a::before
+{
+    transform: skewX(45deg) translateX(200%);
+}
+.btn::before
+{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #A6995B;
+    border-radius: 10px;
+    transition: 0;
+}
+.btn:hover::before
+{
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s
+}
+.btn::after
+{
+    content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #A6995B;
+    border-radius: 10px;
+    transition: 0;
+}
+.btn:hover::after
+{
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+    transition-delay: 0.5s
+}
+.btn:nth-child(1)::before,
+.btn:nth-child(1)::after
+{
+    background: #A6995B;
+    box-shadow: 0 0 5px #A6995B,
+    0 0 15px #A6995B,
+    0 0 30px #A6995B,
+    0 0 60px #A6995B;            
+}
+
+/* Mise en page de la introduction */
+
+.presentation img
+{
+    border-radius: 10%;
+    max-width: 75%;
+}
+
+/* Mise en page des Services & Card */
+
+
+.services .container .card-body
+{
+    background-color: #a6995bd2;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(90, 89, 89);
+    text-decoration: none;
+    overflow: hidden;
+    min-height: 700px;
+    min-width: 300px;
+    align-items: center;
+}
+
+/* warning card */
+.warning
+{
+    -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 2px #FF0000, 5px 5px 2px 5px rgba(0,0,0,0) !important; 
+    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 2px #FF0000, 5px 5px 2px 5px rgba(0,0,0,0) !important;
+}
+
+.icon-warning:hover
+{
+    transform:scale(1.35);
+    transition: .5s;
+}
+
+/* Mise en forme mes produits */
+.produits img
+{
+    border-radius: 5%;
+    max-height: 200px !important;
+}
+
+/* Mise en forme temoignage */
+
+.carousel-img img{
+    border-radius: 50%;
+    margin-top: 20px !important;
+    width: 15%;
+}
+
+.temoignage .carousel-caption{
+    position: initial;
+    padding: 20px 0px 40px;
+
+}
+
+.temoignage .carousel-inner
+{
+    background-color: #a6995bad;
+}
+
+/* Mise en forme Footer */
+.logofooter
+{
+    width: 50%;
+}
+.mail-protector
+{
+    text-decoration: none;
+}
+
+/* mise en forme formulaire */
+
+.form-css input
+{
+    border: solid #A6995B;
+    margin-top: 5px;
+}
+.form-css input:hover
+{
+    border: solid #405347;
+}
+.form-css textarea
+{
+    border: solid #A6995B;
+    margin-top: 5px;
+}
+.form-css textarea:hover
+{
+    border: solid #405347;
+}
+
+.card-horaire img
+{
+    max-width: 50%;
+}
+
+/* Mentions legales */
+.yin-yang{
+    animation: fill infinite 3s;
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Media query formulaire page contact pour mobile */
+@media screen and (min-width: 576px) 
+{
+    .form-css input
+    { 
+        width: 500px !important;
+        justify-content: center;
+    }
+    
 }
