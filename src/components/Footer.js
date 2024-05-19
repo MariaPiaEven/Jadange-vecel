@@ -79,7 +79,7 @@ const Footer = () => {
                                 <h6 className="text-uppercase fw-bold mb-4">
                                     Contact
                                 </h6>
-                                {/* <p><i className="fas fa-home me-3"></i> 29 Rue des Frères Voirin, 54000 Nancy, France</p> */}
+                                <p><i className="fas fa-home me-3"></i>Marseille, France</p>
                                 <p>
                                     <i className="fas fa-envelope me-3"></i>
                                     jadange54000@gmail.com
@@ -92,7 +92,7 @@ const Footer = () => {
                 </section >
 
                 <div className="text-center p-4" style={{ backgroundColor: "hsla(0, 0%, 0%, 0.05)" }}>
-                    © 2024 Copyright: Site réalisé par <a target="_blank" rel="noopener noreferrer" className="text-reset fw-bold" href="https://www.linkedin.com/in/maria-pia-even/">EVEN Maria-Pia</a>
+                    © 2024 Copyright
                 </div>
 
             </footer >

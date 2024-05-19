@@ -45,51 +45,48 @@ const Cartomancie = () => {
                             <p>Je vous propose mes services de voyance grâce aux cartes pour vous permettre de trouver des solutions à vos questions et d'en savoir plus sur votre avenir.
                                 Je vous invite à me contacter afin que je vous renseigne sur ce que je fais, ou pour un éventuel rendez-vous.
                             </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section>
-
-                <h2 className="mt-5 text-center">Mes tarifs</h2>
-                <div className="container mt-5">
-                    <div className="row">
-                        <div className="col-md-6 col-sm-12 text-center">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Tarif Cartomancie :</h5>
-                                    <p className="card-text">
-                                        <ul>
-                                            <li>A partir de 50€ --- Séance</li>
-                                        </ul>
-                                    </p>
-                                    <p className="card-text">
-                                        Moyens de paiement :
-                                    </p>
-                                    <p className="card-text">
-                                        <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
-                                        <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-sm-12 text-center">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Tarif Communication avec les défunts :</h5>
-                                    <p className="card-text">
-                                        <ul>
-                                            <li>A partir de 50€ --- Séance</li>
-                                        </ul>
-                                    </p>
-                                    <p className="card-text">
-                                        Moyens de paiement :
-                                    </p>
-                                    <p className="card-text">
-                                        <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
-                                        <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
-                                    </p>
+                            <h2 className="mt-5 text-center">Mes tarifs</h2>
+                            <div className="container mt-5">
+                                <div className="row">
+                                    <div className="col-md-6 col-sm-12 text-center">
+                                        <div className="card">
+                                            <div className="card-body">
+                                                <h5 className="card-title">Cartomancie :</h5>
+                                                <p className="card-text">
+                                                    <ul>
+                                                        <li>Tarif selon la prestation demandée</li>
+                                                    </ul>
+                                                </p>
+                                                <p className="card-text">
+                                                    Moyens de paiement :
+                                                </p>
+                                                <p className="card-text">
+                                                    <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
+                                                    <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-sm-12 text-center">
+                                        <div className="card">
+                                            <div className="card-body">
+                                                <h5 className="card-title">Communication avec les défunts :</h5>
+                                                <p className="card-text">
+                                                    <ul>
+                                                        <li>Tarif selon la prestation demandée</li>
+                                                    </ul>
+                                                </p>
+                                                <p className="card-text">
+                                                    Moyens de paiement :
+                                                </p>
+                                                <p className="card-text">
+                                                    <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
+                                                    <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

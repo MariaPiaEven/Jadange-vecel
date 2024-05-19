@@ -21,22 +21,22 @@ const Magnetisme = () => {
                                 </div>
                                 <div className="carousel-inner">
                                     <div className="carousel-item active fit">
-                                        <img src="./lahochi2.jpg" className="d-block w-100 pb-4" alt="massage nancy"/>
+                                        <img src="./lahochi2.jpg" className="d-block w-100 pb-4" alt="massage nancy" />
                                     </div>
                                     <div className="carousel-item fit">
-                                        <img src="./lahochi1.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500"/>
+                                        <img src="./lahochi1.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500" />
                                     </div>
                                     <div className="carousel-item fit">
-                                        <img src="./lahochi3.jpg" className="d-block w-100 pb-4" alt="massage nancy"/>
+                                        <img src="./lahochi3.jpg" className="d-block w-100 pb-4" alt="massage nancy" />
                                     </div>
                                     <div className="carousel-item fit">
-                                        <img src="./lahochi4.jpg" className="d-block w-100 pb-4" alt="massage nancy"/>
+                                        <img src="./lahochi4.jpg" className="d-block w-100 pb-4" alt="massage nancy" />
                                     </div>
                                     <div className="carousel-item fit">
-                                        <img src="./lahochi5.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500"/>
+                                        <img src="./lahochi5.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500" />
                                     </div>
                                     <div className="carousel-item fit">
-                                        <img src="./lahochi8.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500"/>
+                                        <img src="./lahochi8.jpg" className="d-block w-100 pb-4" alt="massage nancy" min-height="500" />
                                     </div>
                                 </div>
                                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -54,56 +54,33 @@ const Magnetisme = () => {
                             <p>Le magnétisme permet de dénouer les nœuds du corps et du mental pour se sentir plus apaisé et pour libérer l'énergie afin qu'elle circule bien des pieds à la tête. On parle alors d'alignement. C'est cette base énergétique que l'on va retrouver avec des pratiques telles que l'acupuncture ou le yoga par exemple.
                                 Tout le monde peut pratiquer une séance de magnétisme afin de rééquilibrer son corps et apaiser ses tensions. Ainsi le magnétisme peut aussi bien aider les adultes que les enfants, les bébés ou même les animaux.
                             </p>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-
-            <section>
-
-                <h2 className="mt-5 text-center">Mes tarifs</h2>
-                <div className="container mt-5">
-                    <div className="row">
-                        <div className="col-md-6 col-sm-12 text-center">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Tarif Adultes:</h5>
-                                    <p className="card-text">
-                                        <ul>
-                                            <li>50€</li>
-                                        </ul>
-                                    </p>
-                                    <p className="card-text">
-                                        Moyens de paiement :
-                                    </p>
-                                    <p className="card-text">
-                                        <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
-                                        <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
-                                    </p>
+                            <h2 className="mt-5 text-center">Mes tarifs</h2>
+                            <div className="container mt-5">
+                                <div className="row">
+                                    <div className="text-center">
+                                        <div className="card">
+                                            <div className="card-body">
+                                                <h5 className="card-title">Magnetisme :</h5>
+                                                <p className="card-text">
+                                                    <ul>
+                                                        <li>Tarif selon le besoin</li>
+                                                    </ul>
+                                                </p>
+                                                <p className="card-text">
+                                                    Moyens de paiement :
+                                                </p>
+                                                <p className="card-text">
+                                                    <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
+                                                    <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-12 text-center">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Tarif Enfants:</h5>
-                                    <p className="card-text">
-                                        <ul>
-                                            <li>30€</li>
-                                        </ul>
-                                    </p>
-                                    <p className="card-text">
-                                        Moyens de paiement :
-                                    </p>
-                                    <p className="card-text">
-                                        <i className="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
-                                        <i className="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
             </section>
