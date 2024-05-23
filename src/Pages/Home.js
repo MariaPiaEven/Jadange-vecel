@@ -24,7 +24,7 @@ const Home = () => {
                             <h3 className="mb-5 pt-5">Bienvenue chez Jad'Ange</h3>
                             <p>Je suis Carla Pereira, Practicienne et Accompagnante Bien-Être et Thérapeute en Lahochi - Soins énergétiques et magnétiseuse à Marseille. Je vous propose des séances de Massage Bien-Être et Soin Lahochi.
                                 Mes services sont issus d'une technique de toucher et d'écoute dans l'accompagnement de toute personne en recherche de détente, de relaxation et de mieux-être.<br /><br />
-                                Mes formations me permettent de pratiquer mes prestations sur les personnes porteuses de handicap, enfants et personnes âgée.<br /><br />
+                                Mes formations me permettent de pratiquer mes prestations sur les personnes porteuses de handicap, enfants et personnes âgées.<br /><br />
                                 Je vous propose également des séances Cartomancie et Communication avec les défunts.
                             </p>
                             <p>"Un masseur bien-être écoute avec ses mains et son coeur."</p>
