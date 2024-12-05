@@ -47,7 +47,7 @@ const Home = () => {
                                         <li>90€ --- Séance</li>
                                     </ul>
                                     <h3 className="card-title text-white text-center">Massage Tantrique</h3>
-                                    <ul>
+                                    <ul className="text-white ps-5 ms-4">
                                         <li>Séance de 1h</li>
                                     </ul>
                                     <img className="card-img-top" src="./massage-card.jpg" alt="massage nancy" />
