@@ -48,6 +48,9 @@ const Home = () => {
                                     </ul>
                                     <h3 className="card-title text-white text-center">Massage Tantrique</h3>
                                     <p className="text-white text-center">À consulter</p>
+                                    <ul>
+                                        <li>Séance de 1h</li>
+                                    </ul>
                                     <img className="card-img-top" src="./massage-card.jpg" alt="massage nancy" />
                                     <div className="button text-center"><button type="button" className="btn shadow-none"><a href="/massage">Découvrir</a></button></div>
                                 </div>
