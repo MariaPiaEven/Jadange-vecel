@@ -22,7 +22,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-6 mt-5 mx-auto">
                             <h3 className="mb-5 pt-5">Bienvenue chez Jad'Ange</h3>
-                            <p>Je suis Carla Pereira, Practicienne et Accompagnante Bien-Être et Thérapeute en Lahochi - Soins énergétiques et magnétiseuse à Marseille. Je vous propose des séances de Massage Bien-Être et Soin Lahochi.
+                            <p>Je suis Carla Pereira, Practicienne et Accompagnante Bien-Être et Thérapeute en Lahochi - Soins énergétiques et magnétiseuse dans la Région Bordelaise. Je vous propose des séances de Massage Bien-Être et Soin Lahochi.
                                 Mes services sont issus d'une technique de toucher et d'écoute dans l'accompagnement de toute personne en recherche de détente, de relaxation et de mieux-être.<br /><br />
                                 Mes formations me permettent de pratiquer mes prestations sur les personnes porteuses de handicap, enfants et personnes âgées.<br /><br />
                                 Je vous propose également des séances Cartomancie et Communication avec les défunts.
@@ -47,11 +47,6 @@ const Home = () => {
                                         <li>90€ --- Séance</li>
                                     </ul>
                                     <h3 className="card-title text-white text-center">Massage Tantrique</h3>
-                                    <ul className="text-white">
-                                        <li>100€ --- Massage basique</li>
-                                        <li>110€ --- Massage du corps entier</li>
-                                        <li>130€ --- Massage corps à corps</li>
-                                    </ul>
                                     <img className="card-img-top" src="./massage-card.jpg" alt="massage nancy" />
                                     <div className="button text-center"><button type="button" className="btn shadow-none"><a href="/massage">Découvrir</a></button></div>
                                 </div>

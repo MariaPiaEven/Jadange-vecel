@@ -101,11 +101,6 @@ const Massage = () => {
                                             <div class="card-body">
                                                 <h5 class="card-title">Massage tantrique</h5>
                                                 <p class="card-text">
-                                                    <ul>
-                                                        <li>100€ --- Massage basique</li>
-                                                        <li>110€ --- Massage du corps entier</li>
-                                                        <li>130€ --- Massage corps à corps</li>
-                                                    </ul>
                                                 </p>
                                                 <p class="card-text">
                                                     Moyens de paiement :
