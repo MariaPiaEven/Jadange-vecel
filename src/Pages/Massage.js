@@ -101,6 +101,7 @@ const Massage = () => {
                                             <div class="card-body">
                                                 <h5 class="card-title">Massage tantrique</h5>
                                                 <p class="card-text">
+                                                <p className="text-white text-center">À consulter</p>
                                                 </p>
                                                 <p class="card-text">
                                                     Moyens de paiement :
