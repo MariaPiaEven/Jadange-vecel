@@ -77,11 +77,8 @@ const Massage = () => {
                                         <div class="card">
                                             <div class="card-body">
                                                 <h5 class="card-title">Massage Bien-Être</h5>
-                                                <p class="card-text">
-                                                    <ul>
-                                                        <li>90€ --- Séance</li>
-                                                    </ul>
-                                                </p>
+                                                
+            
                                                 <p class="card-text">
                                                     Moyens de paiement :
                                                 </p>
