@@ -43,10 +43,9 @@ const Home = () => {
                                 <div className="card-body">
                                     <h3 className="card-title text-white text-center">Massage<br />Bien-Être</h3>
                                     <p className="card-text text-white text-center">Je vous propose un massage centré sur la personne , offre la tranquillité et la relaxation du corps et de l'esprit.</p>
-                                    <ul className="text-white ps-5 ms-4">
-                                        <li>90€ --- Séance</li>
-                                    </ul>
-                                    <h3 className="card-title text-white text-center">Massage Tantrique</h3>
+                              
+                                    
+                                    <h3 className="card-title text-white text-center">Massage Fusion</h3>
                                     <ul className="text-white ps-5 ms-4">
                                         <li>Séance de 1h</li>
                                     </ul>
