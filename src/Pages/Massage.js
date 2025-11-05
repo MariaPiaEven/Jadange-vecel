@@ -96,7 +96,7 @@ const Massage = () => {
                                     <div class="text-center">
                                         <div class="card">
                                             <div class="card-body">
-                                                <h5 class="card-title">Massage tantrique</h5>
+                                                <h5 class="card-title">Massage Fusion</h5>
                                                 <p class="card-text">
                                                     <ul>
                                                         <li>Séance de 1h</li>
