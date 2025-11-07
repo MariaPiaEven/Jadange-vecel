@@ -60,9 +60,6 @@ const Home = () => {
                                     <h3 className="card-title text-white text-center">Lahochi (Soin énergétique)</h3>
                                     <p className="card-text text-white text-center">Le Lahochi est une technique énergétique de soin très puissante transmise par l’apposition des mains.
                                     </p>
-                                    <ul className="text-white ps-5 ms-4">
-                                        <li>90€ --- Séance</li>
-                                    </ul>
                                     <img className="card-img-top" src="./lahochi-card.jpg" alt="lahochi nancy" />
                                     <div className="button text-center"><button type="button" className="btn shadow-none"><a href="/lahochi">Découvrir</a></button></div>
                                 </div>
