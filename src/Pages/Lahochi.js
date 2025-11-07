@@ -66,11 +66,6 @@ const Lahochi = () => {
                                             <div className="card-body">
                                                 <h5 className="card-title">Soin Lahochi</h5>
                                                 <p className="card-text">
-                                                    <ul>
-                                                        <li>90€ --- Séance</li>
-                                                    </ul>
-                                                </p>
-                                                <p className="card-text">
                                                     Moyens de paiement :
                                                 </p>
                                                 <p className="card-text">
