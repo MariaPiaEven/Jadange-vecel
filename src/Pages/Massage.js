@@ -83,8 +83,7 @@ const Massage = () => {
                                                     Moyens de paiement :
                                                 </p>
                                                 <p class="card-text">
-                                                    <i class="fa-brands fa-cc-visa fa-2x text-primary mx-1"></i>
-                                                    <i class="fa-solid fa-money-bill-1-wave fa-2x text-success mx-1"></i>
+                                                    Wero et espèces
                                                 </p>
                                             </div>
                                         </div>
